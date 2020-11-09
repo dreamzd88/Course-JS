@@ -60,7 +60,7 @@ detectLevel();
 
 function checkSavings() {
     if(appData.savings == true) {
-        let save = +prompt ("Какова сумма накоплений?", "");
+        let save = +prompt ("Какая сумма накоплений?", "");
         let percent = +prompt ("Каков процент?", "");
         appData.income = save/100/12*percent;
         alert(appData.income);
